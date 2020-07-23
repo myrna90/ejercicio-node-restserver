@@ -44,7 +44,7 @@ app.put("/Usuario/:id", function (req, res) {
 app.delete("/Usuario", function (req, res) {
   res.json("delete usuario");
 });
-
+ /*se elimino u archivo */
 app.listen(process.env.PORT, () => {
   console.log("Escuchenado puerto:", process.env.PORT);
 });
